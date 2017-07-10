@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\MQBasePlugin.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MQInit.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MQPlugin.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MQSetting.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MQWidget.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StationPlugin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="maindlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="aboutdlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectComposition.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dll_main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MQBasePlugin.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MQPlugin.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MQSetting.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MQWidget.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StationPlugin.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="maindlg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="aboutdlg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectComposition.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="dll_main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lib">
+      <UniqueIdentifier>{771b6082-748b-4271-9ad3-8e8276a7e975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{3fcc0ef5-08db-4f10-aa81-699724704b82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
